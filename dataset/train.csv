@@ -1,0 +1,1720 @@
+id,code,file_extension,label
+1,"def add(a, b)
+    return a + b
+# Example 96",.py,1
+2,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 37",.py,1
+3,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 83",.py,0
+4,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 8",.py,0
+5,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 3",.py,0
+6,"import os
+print(os.getcwd())
+# Example 213",.py,0
+7,"x = 10
+y = 0
+result = x / y
+# Example 25",.py,1
+8,"username = 'student'
+print(username)
+# Example 29",.py,0
+9,"for i in range(10)
+    print(i)
+# Example 93",.py,1
+10,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 7",.py,0
+11,"try:
+    x = int(input())
+except:
+    pass
+# Example 46",.py,1
+12,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 41",.py,1
+13,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 51",.py,0
+14,"total = 100
+count = 0
+average = total / count
+# Example 75",.py,1
+15,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 84",.py,0
+16,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 199",.py,0
+17,"import os
+os.system(user_command)
+# Example 141",.py,1
+18,"total = 100
+count = 0
+average = total / count
+# Example 130",.py,1
+19,"import os
+print(os.getcwd())
+# Example 156",.py,0
+20,"username = 'student'
+print(username)
+# Example 41",.py,0
+21,"password = 'admin123'
+print(password)
+# Example 78",.py,1
+22,"username = 'student'
+print(username)
+# Example 192",.py,0
+23,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 133",.py,0
+24,"def add(a, b)
+    return a + b
+# Example 50",.py,1
+25,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 125",.py,0
+26,"def add(a, b):
+    return a + b
+# Example 245",.py,0
+27,"def greet(name):
+print('Hello', name)
+# Example 242",.py,1
+28,"name = None
+print(name.upper())
+# Example 111",.py,1
+29,"def greet(name):
+print('Hello', name)
+# Example 118",.py,1
+30,"for i in range(10):
+    print(i)
+# Example 248",.py,0
+31,"for i in range(10):
+    print(i)
+# Example 36",.py,0
+32,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 221",.py,0
+33,"def greet(name):
+    print('Hello', name)
+# Example 117",.py,0
+34,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 185",.py,0
+35,"user_input = input()
+print(user_input)
+# Example 181",.py,0
+36,"user_input = input()
+print(user_input)
+# Example 162",.py,0
+37,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 29",.py,1
+38,"for i in range(10):
+    print(i)
+# Example 138",.py,0
+39,"name = None
+print(name.upper())
+# Example 31",.py,1
+40,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 94",.py,1
+41,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 194",.py,0
+42,"def greet(name):
+print('Hello', name)
+# Example 162",.py,1
+43,"username = 'student'
+print(username)
+# Example 211",.py,0
+44,"for i in range(10):
+    print(i)
+# Example 15",.py,0
+45,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 106",.py,1
+46,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 80",.py,0
+47,"for i in range(10)
+    print(i)
+# Example 34",.py,1
+48,"import os
+print(os.getcwd())
+# Example 71",.py,0
+49,"def greet(name):
+    print('Hello', name)
+# Example 73",.py,0
+50,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 62",.py,0
+51,"x = 10
+y = 0
+result = x / y
+# Example 191",.py,1
+52,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 109",.py,1
+53,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 149",.py,1
+54,"try:
+    x = int(input())
+except:
+    pass
+# Example 188",.py,1
+55,"x = 10
+y = 0
+result = x / y
+# Example 240",.py,1
+56,"username = 'student'
+print(username)
+# Example 107",.py,0
+57,"username = 'student'
+print(username)
+# Example 139",.py,0
+58,"for i in range(10):
+    print(i)
+# Example 176",.py,0
+59,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 45",.py,0
+60,"x = 10
+y = 0
+result = x / y
+# Example 249",.py,1
+61,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 65",.py,0
+62,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 166",.py,0
+63,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 68",.py,1
+64,"import os
+os.system(user_command)
+# Example 4",.py,1
+65,"username = 'student'
+print(username)
+# Example 50",.py,0
+66,"def add(a, b)
+    return a + b
+# Example 124",.py,1
+67,"user_input = input()
+result = eval(user_input)
+# Example 206",.py,1
+68,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 170",.py,0
+69,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 74",.py,0
+70,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 237",.py,1
+71,"import os
+os.system(user_command)
+# Example 12",.py,1
+72,"password = 'admin123'
+print(password)
+# Example 248",.py,1
+73,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 132",.py,1
+74,"import os
+os.system(user_command)
+# Example 79",.py,1
+75,"user_input = input()
+result = eval(user_input)
+# Example 97",.py,1
+76,"def greet(name):
+print('Hello', name)
+# Example 235",.py,1
+77,"for i in range(10):
+    print(i)
+# Example 6",.py,0
+78,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 201",.py,1
+79,"for i in range(10):
+    print(i)
+# Example 152",.py,0
+80,"user_input = input()
+result = eval(user_input)
+# Example 167",.py,1
+81,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 97",.py,0
+82,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 40",.py,0
+83,"try:
+    x = int(input())
+except:
+    pass
+# Example 247",.py,1
+84,"try:
+    x = int(input())
+except:
+    pass
+# Example 59",.py,1
+85,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 140",.py,0
+86,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 153",.py,0
+87,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 203",.py,1
+88,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 194",.py,1
+89,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 20",.py,0
+90,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 237",.py,0
+91,"username = 'student'
+print(username)
+# Example 163",.py,0
+92,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 52",.py,0
+93,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 198",.py,0
+94,"user_input = input()
+print(user_input)
+# Example 135",.py,0
+95,"import os
+os.system(user_command)
+# Example 9",.py,1
+96,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 113",.py,0
+97,"password = 'admin123'
+print(password)
+# Example 226",.py,1
+98,"if x > 10
+    print(x)
+# Example 164",.py,1
+99,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 18",.py,0
+100,"def add(a, b)
+    return a + b
+# Example 45",.py,1
+101,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 144",.py,1
+102,"user_input = input()
+result = eval(user_input)
+# Example 215",.py,1
+103,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 73",.py,1
+104,"def add(a, b):
+    return a + b
+# Example 44",.py,0
+105,"total = 100
+count = 0
+average = total / count
+# Example 222",.py,1
+106,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 91",.py,0
+107,"name = 'Student'
+print(name.upper())
+# Example 123",.py,0
+108,"password = 'admin123'
+print(password)
+# Example 88",.py,1
+109,"for i in range(10):
+    print(i)
+# Example 137",.py,0
+110,"name = 'Student'
+print(name.upper())
+# Example 19",.py,0
+111,"user_input = input()
+result = eval(user_input)
+# Example 151",.py,1
+112,"def greet(name):
+print('Hello', name)
+# Example 233",.py,1
+113,"if x > 10
+    print(x)
+# Example 32",.py,1
+114,"x = 10
+y = 0
+result = x / y
+# Example 81",.py,1
+115,"name = 'Student'
+print(name.upper())
+# Example 108",.py,0
+116,"total = 100
+count = 0
+average = total / count
+# Example 89",.py,1
+117,"user_input = input()
+print(user_input)
+# Example 186",.py,0
+118,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 10",.py,1
+119,"if x > 10:
+    print(x)
+# Example 22",.py,0
+120,"for i in range(10):
+    print(i)
+# Example 114",.py,0
+121,"try:
+    x = int(input())
+except:
+    pass
+# Example 199",.py,1
+122,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 51",.py,1
+123,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 49",.py,1
+124,"if x > 10:
+    print(x)
+# Example 81",.py,0
+125,"def greet(name):
+    print('Hello', name)
+# Example 24",.py,0
+126,"def add(a, b):
+    return a + b
+# Example 214",.py,0
+127,"total = 100
+count = 0
+average = total / count
+# Example 245",.py,1
+128,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 120",.py,0
+129,"user_input = input()
+result = eval(user_input)
+# Example 175",.py,1
+130,"import os
+os.system(user_command)
+# Example 28",.py,1
+131,"import os
+print(os.getcwd())
+# Example 160",.py,0
+132,"user_input = input()
+result = eval(user_input)
+# Example 42",.py,1
+133,"user_input = input()
+result = eval(user_input)
+# Example 153",.py,1
+134,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 185",.py,1
+135,"total = 100
+count = 0
+average = total / count
+# Example 95",.py,1
+136,"for i in range(10):
+    print(i)
+# Example 76",.py,0
+137,"def add(a, b):
+    return a + b
+# Example 172",.py,0
+138,"user_input = input()
+print(user_input)
+# Example 144",.py,0
+139,"import os
+os.system(user_command)
+# Example 30",.py,1
+140,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 159",.py,0
+141,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 246",.py,1
+142,"password = 'admin123'
+print(password)
+# Example 250",.py,1
+143,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 232",.py,1
+144,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 220",.py,1
+145,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 52",.py,1
+146,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 246",.py,0
+147,"def add(a, b)
+    return a + b
+# Example 202",.py,1
+148,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 11",.py,1
+149,"x = 10
+y = 0
+result = x / y
+# Example 18",.py,1
+150,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 190",.py,0
+151,"def greet(name):
+    print('Hello', name)
+# Example 72",.py,0
+152,"name = None
+print(name.upper())
+# Example 14",.py,1
+153,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 225",.py,1
+154,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 191",.py,0
+155,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 188",.py,0
+156,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 94",.py,0
+157,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 65",.py,1
+158,"try:
+    x = int(input())
+except:
+    pass
+# Example 204",.py,1
+159,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 72",.py,1
+160,"password = 'admin123'
+print(password)
+# Example 166",.py,1
+161,"name = 'Student'
+print(name.upper())
+# Example 183",.py,0
+162,"total = 100
+count = 0
+average = total / count
+# Example 173",.py,1
+163,"for i in range(10):
+    print(i)
+# Example 161",.py,0
+164,"user_input = input()
+result = eval(user_input)
+# Example 230",.py,1
+165,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 174",.py,0
+166,"username = 'student'
+print(username)
+# Example 165",.py,0
+167,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 201",.py,0
+168,"def add(a, b):
+    return a + b
+# Example 87",.py,0
+169,"user_input = input()
+result = eval(user_input)
+# Example 47",.py,1
+170,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 119",.py,1
+171,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 35",.py,1
+172,"for i in range(10):
+    print(i)
+# Example 109",.py,0
+173,"def greet(name):
+    print('Hello', name)
+# Example 224",.py,0
+174,"name = 'Student'
+print(name.upper())
+# Example 177",.py,0
+175,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 124",.py,0
+176,"for i in range(10):
+    print(i)
+# Example 229",.py,0
+177,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 225",.py,0
+178,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 78",.py,0
+179,"import os
+print(os.getcwd())
+# Example 168",.py,0
+180,"password = 'admin123'
+print(password)
+# Example 7",.py,1
+181,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 146",.py,0
+182,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 160",.py,1
+183,"password = 'admin123'
+print(password)
+# Example 33",.py,1
+184,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 96",.py,0
+185,"import os
+os.system(user_command)
+# Example 43",.py,1
+186,"for i in range(10)
+    print(i)
+# Example 186",.py,1
+187,"def greet(name):
+print('Hello', name)
+# Example 104",.py,1
+188,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 174",.py,1
+189,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 182",.py,0
+190,"import os
+print(os.getcwd())
+# Example 53",.py,0
+191,"if x > 10:
+    print(x)
+# Example 32",.py,0
+192,"user_input = input()
+result = eval(user_input)
+# Example 8",.py,1
+193,"import os
+print(os.getcwd())
+# Example 5",.py,0
+194,"import os
+os.system(user_command)
+# Example 112",.py,1
+195,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 54",.py,0
+196,"def add(a, b):
+    return a + b
+# Example 208",.py,0
+197,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 2",.py,0
+198,"def add(a, b)
+    return a + b
+# Example 57",.py,1
+199,"name = 'Student'
+print(name.upper())
+# Example 69",.py,0
+200,"def greet(name):
+    print('Hello', name)
+# Example 226",.py,0
+201,"name = None
+print(name.upper())
+# Example 189",.py,1
+202,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 192",.py,1
+203,"def greet(name):
+print('Hello', name)
+# Example 138",.py,1
+204,"user_input = input()
+print(user_input)
+# Example 13",.py,0
+205,"import os
+print(os.getcwd())
+# Example 27",.py,0
+206,"import os
+os.system(user_command)
+# Example 193",.py,1
+207,"if x > 10:
+    print(x)
+# Example 217",.py,0
+208,"for i in range(10):
+    print(i)
+# Example 119",.py,0
+209,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 204",.py,0
+210,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 123",.py,1
+211,"if x > 10:
+    print(x)
+# Example 99",.py,0
+212,"def greet(name):
+print('Hello', name)
+# Example 148",.py,1
+213,"def greet(name):
+    print('Hello', name)
+# Example 142",.py,0
+214,"password = 'admin123'
+print(password)
+# Example 6",.py,1
+215,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 179",.py,1
+216,"for i in range(10)
+    print(i)
+# Example 150",.py,1
+217,"def add(a, b):
+    return a + b
+# Example 101",.py,0
+218,"def add(a, b):
+    return a + b
+# Example 35",.py,0
+219,"name = 'Student'
+print(name.upper())
+# Example 63",.py,0
+220,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 214",.py,1
+221,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 167",.py,0
+222,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 16",.py,1
+223,"def add(a, b)
+    return a + b
+# Example 228",.py,1
+224,"import os
+os.system(user_command)
+# Example 120",.py,1
+225,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 59",.py,0
+226,"try:
+    x = int(input())
+except:
+    pass
+# Example 85",.py,1
+227,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 220",.py,0
+228,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 107",.py,1
+229,"if x > 10
+    print(x)
+# Example 17",.py,1
+230,"import os
+print(os.getcwd())
+# Example 28",.py,0
+231,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 181",.py,1
+232,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 40",.py,1
+233,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 178",.py,1
+234,"def greet(name):
+    print('Hello', name)
+# Example 209",.py,0
+235,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 219",.py,0
+236,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 189",.py,0
+237,"if x > 10:
+    print(x)
+# Example 89",.py,0
+238,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 173",.py,0
+239,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 139",.py,1
+240,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 55",.py,0
+241,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 122",.py,0
+242,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 86",.py,1
+243,"try:
+    x = int(input())
+except:
+    pass
+# Example 70",.py,1
+244,"x = 10
+y = 0
+result = x / y
+# Example 61",.py,1
+245,"def greet(name):
+print('Hello', name)
+# Example 74",.py,1
+246,"if x > 10
+    print(x)
+# Example 183",.py,1
+247,"name = 'Student'
+print(name.upper())
+# Example 250",.py,0
+248,"def greet(name):
+    print('Hello', name)
+# Example 149",.py,0
+249,"total = 100
+count = 0
+average = total / count
+# Example 71",.py,1
+250,"import os
+os.system(user_command)
+# Example 62",.py,1
+251,"if x > 10:
+    print(x)
+# Example 86",.py,0
+252,"for i in range(10):
+    print(i)
+# Example 67",.py,0
+253,"username = 'student'
+print(username)
+# Example 115",.py,0
+254,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 200",.py,1
+255,"username = 'student'
+print(username)
+# Example 235",.py,0
+256,"name = 'Student'
+print(name.upper())
+# Example 236",.py,0
+257,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 127",.py,1
+258,"def add(a, b)
+    return a + b
+# Example 133",.py,1
+259,"name = None
+print(name.upper())
+# Example 231",.py,1
+260,"for i in range(10):
+    print(i)
+# Example 39",.py,0
+261,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 202",.py,0
+262,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 229",.py,1
+263,"if x > 10:
+    print(x)
+# Example 193",.py,0
+264,"username = 'student'
+print(username)
+# Example 215",.py,0
+265,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 57",.py,0
+266,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 163",.py,1
+267,"username = 'student'
+print(username)
+# Example 23",.py,0
+268,"name = 'Student'
+print(name.upper())
+# Example 234",.py,0
+269,"user_input = input()
+print(user_input)
+# Example 247",.py,0
+270,"for i in range(10)
+    print(i)
+# Example 63",.py,1
+271,"if x > 10:
+    print(x)
+# Example 147",.py,0
+272,"name = None
+print(name.upper())
+# Example 26",.py,1
+273,"def add(a, b)
+    return a + b
+# Example 238",.py,1
+274,"name = 'Student'
+print(name.upper())
+# Example 16",.py,0
+275,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 157",.py,0
+276,"password = 'admin123'
+print(password)
+# Example 113",.py,1
+277,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 218",.py,1
+278,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 230",.py,0
+279,"x = 10
+y = 0
+result = x / y
+# Example 3",.py,1
+280,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 43",.py,0
+281,"total = 100
+count = 0
+average = total / count
+# Example 125",.py,1
+282,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 121",.py,0
+283,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 4",.py,0
+284,"name = None
+print(name.upper())
+# Example 197",.py,1
+285,"password = 'admin123'
+print(password)
+# Example 100",.py,1
+286,"name = None
+print(name.upper())
+# Example 213",.py,1
+287,"name = None
+print(name.upper())
+# Example 234",.py,1
+288,"total = 100
+count = 0
+average = total / count
+# Example 38",.py,1
+289,"def greet(name):
+print('Hello', name)
+# Example 244",.py,1
+290,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 126",.py,1
+291,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 24",.py,1
+292,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 132",.py,0
+293,"name = 'Student'
+print(name.upper())
+# Example 180",.py,0
+294,"try:
+    x = int(input())
+except:
+    pass
+# Example 102",.py,1
+295,"if x > 10
+    print(x)
+# Example 116",.py,1
+296,"username = 'student'
+print(username)
+# Example 82",.py,0
+297,"name = None
+print(name.upper())
+# Example 121",.py,1
+298,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 210",.py,0
+299,"x = 10
+y = 0
+result = x / y
+# Example 172",.py,1
+300,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 14",.py,0
+301,"if x > 10
+    print(x)
+# Example 146",.py,1
+302,"if x > 10
+    print(x)
+# Example 44",.py,1
+303,"total = 100
+count = 0
+average = total / count
+# Example 87",.py,1
+304,"def add(a, b)
+    return a + b
+# Example 243",.py,1
+305,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 103",.py,0
+306,"user_input = input()
+result = eval(user_input)
+# Example 110",.py,1
+307,"def greet(name):
+    print('Hello', name)
+# Example 58",.py,0
+308,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 196",.py,0
+309,"for i in range(10)
+    print(i)
+# Example 239",.py,1
+310,"def add(a, b)
+    return a + b
+# Example 165",.py,1
+311,"name = 'Student'
+print(name.upper())
+# Example 47",.py,0
+312,"user_input = input()
+print(user_input)
+# Example 238",.py,0
+313,"import os
+print(os.getcwd())
+# Example 171",.py,0
+314,"def greet(name):
+print('Hello', name)
+# Example 147",.py,1
+315,"name = None
+print(name.upper())
+# Example 156",.py,1
+316,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 95",.py,0
+317,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 31",.py,0
+318,"x = 10
+y = 0
+result = x / y
+# Example 208",.py,1
+319,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 249",.py,0
+320,"username = 'student'
+print(username)
+# Example 42",.py,0
+321,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 66",.py,0
+322,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 90",.py,1
+323,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 195",.py,1
+324,"name = None
+print(name.upper())
+# Example 216",.py,1
+325,"username = 'student'
+print(username)
+# Example 197",.py,0
+326,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 212",.py,0
+327,"def greet(name):
+    print('Hello', name)
+# Example 239",.py,0
+328,"try:
+    x = int(input())
+except:
+    pass
+# Example 152",.py,1
+329,"for i in range(10)
+    print(i)
+# Example 207",.py,1
+330,"name = None
+print(name.upper())
+# Example 168",.py,1
+331,"def greet(name):
+print('Hello', name)
+# Example 210",.py,1
+332,"import os
+os.system(user_command)
+# Example 159",.py,1
+333,"name = 'Student'
+print(name.upper())
+# Example 10",.py,0
+334,"def add(a, b):
+    return a + b
+# Example 240",.py,0
+335,"name = None
+print(name.upper())
+# Example 64",.py,1
+336,"username = 'student'
+print(username)
+# Example 106",.py,0
+337,"user_input = input()
+print(user_input)
+# Example 70",.py,0
+338,"for i in range(10):
+    print(i)
+# Example 222",.py,0
+339,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 126",.py,0
+340,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 179",.py,0
+341,"name = 'Student'
+print(name.upper())
+# Example 207",.py,0
+342,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 101",.py,1
+343,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 26",.py,0
+344,"user_input = input()
+print(user_input)
+# Example 17",.py,0
+345,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 1",.py,1
+346,"username = 'student'
+print(username)
+# Example 105",.py,0
+347,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 205",.py,0
+348,"x = 10
+y = 0
+result = x / y
+# Example 131",.py,1
+349,"def add(a, b)
+    return a + b
+# Example 98",.py,1
+350,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 46",.py,0
+351,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 198",.py,1
+352,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 116",.py,0
+353,"user_input = input()
+print(user_input)
+# Example 12",.py,0
+354,"def add(a, b):
+    return a + b
+# Example 61",.py,0
+355,"name = None
+print(name.upper())
+# Example 224",.py,1
+356,"if x > 10
+    print(x)
+# Example 161",.py,1
+357,"user_input = input()
+result = eval(user_input)
+# Example 177",.py,1
+358,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 223",.py,1
+359,"username = 'student'
+print(username)
+# Example 56",.py,0
+360,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 143",.py,0
+361,"if x > 10:
+    print(x)
+# Example 141",.py,0
+362,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 216",.py,0
+363,"username = 'student'
+print(username)
+# Example 48",.py,0
+364,"if x > 10:
+    print(x)
+# Example 154",.py,0
+365,"if x > 10
+    print(x)
+# Example 134",.py,1
+366,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 232",.py,0
+367,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 15",.py,1
+368,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 170",.py,1
+369,"name = 'Student'
+print(name.upper())
+# Example 25",.py,0
+370,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 98",.py,0
+371,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 129",.py,0
+372,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 11",.py,0
+373,"for i in range(10):
+    print(i)
+# Example 79",.py,0
+374,"if x > 10:
+    print(x)
+# Example 136",.py,0
+375,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 148",.py,0
+376,"try:
+    x = int(input())
+except:
+    pass
+# Example 36",.py,1
+377,"password = 'admin123'
+print(password)
+# Example 143",.py,1
+378,"for i in range(10)
+    print(i)
+# Example 169",.py,1
+379,"if x > 10
+    print(x)
+# Example 205",.py,1
+380,"def add(a, b)
+    return a + b
+# Example 99",.py,1
+381,"if x > 10:
+    print(x)
+# Example 88",.py,0
+382,"import os
+print(os.getcwd())
+# Example 155",.py,0
+383,"for i in range(10)
+    print(i)
+# Example 115",.py,1
+384,"try:
+    x = int(input())
+except:
+    pass
+# Example 117",.py,1
+385,"name = None
+print(name.upper())
+# Example 157",.py,1
+386,"if x > 10
+    print(x)
+# Example 180",.py,1
+387,"x = 10
+y = 0
+result = x / y
+# Example 236",.py,1
+388,"import os
+os.system(user_command)
+# Example 103",.py,1
+389,"user_input = input()
+result = eval(user_input)
+# Example 114",.py,1
+390,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 241",.py,1
+391,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 20",.py,1
+392,"def greet(name):
+print('Hello', name)
+# Example 196",.py,1
+393,"total = 100
+count = 0
+average = total / count
+# Example 56",.py,1
+394,"user_input = input()
+print(user_input)
+# Example 110",.py,0
+395,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 82",.py,1
+396,"password = 'admin123'
+print(password)
+# Example 137",.py,1
+397,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 242",.py,0
+398,"name = 'Student'
+print(name.upper())
+# Example 127",.py,0
+399,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 93",.py,0
+400,"import os
+os.system(user_command)
+# Example 211",.py,1
+401,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 151",.py,0
+402,"if x > 10:
+    print(x)
+# Example 203",.py,0
+403,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 128",.py,0
+404,"try:
+    x = int(input())
+except:
+    pass
+# Example 92",.py,1
+405,"def greet(name):
+print('Hello', name)
+# Example 13",.py,1
+406,"try:
+    x = int(input())
+except:
+    pass
+# Example 212",.py,1
+407,"if x > 10
+    print(x)
+# Example 91",.py,1
+408,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 84",.py,1
+409,"password = 'admin123'
+print(password)
+# Example 122",.py,1
+410,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 227",.py,0
+411,"username = 'student'
+print(username)
+# Example 134",.py,0
+412,"username = 'student'
+print(username)
+# Example 68",.py,0
+413,"import os
+os.system(user_command)
+# Example 209",.py,1
+414,"def greet(name):
+    print('Hello', name)
+# Example 37",.py,0
+415,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 150",.py,0
+416,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 182",.py,1
+417,"if x > 10
+    print(x)
+# Example 53",.py,1
+418,"def greet(name):
+    print('Hello', name)
+# Example 243",.py,0
+419,"x = 10
+y = 0
+result = x / y
+# Example 128",.py,1
+420,"import os
+print(os.getcwd())
+# Example 100",.py,0
+421,"def add(a, b):
+    return a + b
+# Example 223",.py,0
+422,"if x > 10
+    print(x)
+# Example 184",.py,1
+423,"password = 'admin123'
+print(password)
+# Example 21",.py,1
+424,"name = 'Student'
+print(name.upper())
+# Example 158",.py,0
+425,"name = None
+print(name.upper())
+# Example 187",.py,1
+426,"try:
+    x = int(input())
+except:
+    pass
+# Example 158",.py,1
+427,"password = 'admin123'
+print(password)
+# Example 22",.py,1
+428,"def greet(name):
+print('Hello', name)
+# Example 66",.py,1
+429,"try:
+    x = int(input())
+except:
+    pass
+# Example 221",.py,1
+430,"def add(a, b)
+    return a + b
+# Example 76",.py,1
+431,"def greet(name):
+    print('Hello', name)
+# Example 195",.py,0
+432,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 49",.py,0
+433,"total = 100
+count = 0
+average = total / count
+# Example 190",.py,1
+434,"def greet(name):
+    print('Hello', name)
+# Example 178",.py,0
+435,"x = 10
+y = 0
+result = x / y
+# Example 19",.py,1
+436,"import os
+print(os.getcwd())
+# Example 30",.py,0
+437,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 77",.py,1
+438,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 104",.py,0
+439,"x = 10
+y = 0
+result = x / y
+# Example 39",.py,1
+440,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 58",.py,1
+441,"username = 'student'
+print(username)
+# Example 244",.py,0
+442,"name = 'Student'
+print(name.upper())
+# Example 38",.py,0
+443,"total = 100
+count = 0
+average = total / count
+# Example 219",.py,1
+444,"user_input = input()
+print(user_input)
+# Example 112",.py,0
+445,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 33",.py,0
+446,"user_input = input()
+result = eval(user_input)
+# Example 227",.py,1
+447,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 130",.py,0
+448,"password = 'admin123'
+print(password)
+# Example 83",.py,1
+449,"try:
+    x = int(input())
+except:
+    pass
+# Example 135",.py,1
+450,"username = 'student'
+print(username)
+# Example 77",.py,0
+451,"if x > 10
+    print(x)
+# Example 67",.py,1
+452,"if x > 10:
+    print(x)
+# Example 145",.py,0
+453,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 171",.py,1
+454,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 2",.py,1
+455,"name = None
+print(name.upper())
+# Example 23",.py,1
+456,"def add(a, b)
+    return a + b
+# Example 142",.py,1
+457,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 175",.py,0
+458,"def greet(name):
+print('Hello', name)
+# Example 217",.py,1
+459,"user_input = input()
+print(user_input)
+# Example 218",.py,0
+460,"password = 'admin123'
+print(password)
+# Example 48",.py,1
+461,"password = 'admin123'
+print(password)
+# Example 27",.py,1
+462,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 184",.py,0
+463,"password = 'admin123'
+print(password)
+# Example 129",.py,1
+464,"def greet(name):
+    print('Hello', name)
+# Example 1",.py,0
+465,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 9",.py,0
+466,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 233",.py,0
+467,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 187",.py,0
+468,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 75",.py,0
+469,"age = int(input())
+if age > 18:
+    print('Adult')
+# Example 102",.py,0
+470,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 105",.py,1
+471,"items = [1, 2, 3]
+while True:
+    print(items)
+# Example 176",.py,1
+472,"numbers = [1, 2, 3]
+print(numbers[1])
+# Example 118",.py,0
+473,"data = {'name': 'Raj'}
+print(data['age'])
+# Example 108",.py,1
+474,"total = 100
+count = 5
+average = total / count
+print(average)
+# Example 60",.py,0
+475,"for i in range(10)
+    print(i)
+# Example 145",.py,1
+476,"def greet(name):
+print('Hello', name)
+# Example 140",.py,1
+477,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 80",.py,1
+478,"def greet(name):
+    print('Hello', name)
+# Example 241",.py,0
+479,"def greet(name):
+    print('Hello', name)
+# Example 131",.py,0
+480,"def add(a, b)
+    return a + b
+# Example 55",.py,1
+481,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 206",.py,0
+482,"age = int(input())
+if age > 18:
+print('Adult')
+# Example 60",.py,1
+483,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 136",.py,1
+484,"name = None
+print(name.upper())
+# Example 69",.py,1
+485,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 200",.py,0
+486,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 231",.py,0
+487,"numbers = [1, 2, 3]
+print(numbers[10])
+# Example 54",.py,1
+488,"for i in range(10):
+    print(i)
+# Example 90",.py,0
+489,"x = 10
+y = 2
+result = x / y
+print(result)
+# Example 228",.py,0
+490,"password = 'admin123'
+print(password)
+# Example 154",.py,1
+491,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 34",.py,0
+492,"name = 'Student'
+print(name.upper())
+# Example 169",.py,0
+493,"import os
+print(os.getcwd())
+# Example 92",.py,0
+494,"try:
+    x = int(input())
+except:
+    pass
+# Example 5",.py,1
+495,"data = {'name': 'Raj'}
+print(data.get('name'))
+# Example 21",.py,0
+496,"items = [1, 2, 3]
+for item in items:
+    print(item)
+# Example 85",.py,0
+497,"try:
+    x = int(input())
+except ValueError:
+    x = 0
+# Example 164",.py,0
+498,"username = 'student'
+print(username)
+# Example 64",.py,0
+499,"import os
+os.system(user_command)
+# Example 155",.py,1
+500,"if x > 10:
+    print(x)
+# Example 111",.py,0

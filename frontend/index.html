@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Deep Code Guard
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <div class="background-glow"></div>
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>DEEP</span> CODE GUARD
+        </div>
+
+        <div class="nav-badge">
+            AI + DEEP LEARNING
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="hero">
+
+            <div class="hero-tag">
+                PYTORCH POWERED
+            </div>
+
+            <h1>
+                Find Bugs Before
+                <span>They Find You.</span>
+            </h1>
+
+            <p>
+                Analyze your source code using a lightweight
+                Deep Learning model and intelligent static analysis.
+            </p>
+
+        </section>
+
+
+        <section class="editor-card">
+
+            <div class="editor-top">
+
+                <div class="editor-title">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+
+                    <strong>
+                        Code Analyzer
+                    </strong>
+                </div>
+
+                <select id="language">
+
+                    <option value="python">
+                        Python
+                    </option>
+
+                    <option value="javascript">
+                        JavaScript
+                    </option>
+
+                    <option value="java">
+                        Java
+                    </option>
+
+                    <option value="cpp">
+                        C++
+                    </option>
+
+                    <option value="c">
+                        C
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <textarea
+                id="codeInput"
+                spellcheck="false"
+                placeholder="Paste your code here..."
+            >def calculate_average(marks, total):
+    average = marks / total
+    return average
+
+result = calculate_average(80, 0)
+print(result)</textarea>
+
+
+            <div class="editor-footer">
+
+                <span id="charCount">
+                    0 characters
+                </span>
+
+                <button
+                    id="analyzeButton"
+                    onclick="analyzeCode()"
+                >
+                    <span>⚡</span>
+                    ANALYZE CODE
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section
+            id="loading"
+            class="loading hidden"
+        >
+
+            <div class="loader"></div>
+
+            <p>
+                Deep Learning model is analyzing your code...
+            </p>
+
+        </section>
+
+
+        <section
+            id="results"
+            class="results hidden"
+        >
+
+            <div class="result-header">
+
+                <div>
+
+                    <span class="section-label">
+                        ANALYSIS COMPLETE
+                    </span>
+
+                    <h2>
+                        Code Intelligence Report
+                    </h2>
+
+                </div>
+
+                <div
+                    id="statusBadge"
+                    class="status-badge"
+                >
+                    SCANNED
+                </div>
+
+            </div>
+
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <span>
+                        AI PREDICTION
+                    </span>
+
+                    <strong id="prediction">
+                        --
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span>
+                        CONFIDENCE
+                    </span>
+
+                    <strong id="confidence">
+                        --%
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span>
+                        RISK SCORE
+                    </span>
+
+                    <strong id="riskScore">
+                        --/100
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span>
+                        ISSUES FOUND
+                    </span>
+
+                    <strong id="issueCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="results-content">
+
+                <div class="risk-panel">
+
+                    <div class="panel-heading">
+                        Risk Assessment
+                    </div>
+
+                    <div class="risk-circle">
+
+                        <div>
+
+                            <strong id="riskNumber">
+                                0
+                            </strong>
+
+                            <span>
+                                /100
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <h3 id="riskLevel">
+                        Low Risk
+                    </h3>
+
+                    <p>
+                        Based on Deep Learning prediction
+                        and static code analysis.
+                    </p>
+
+                </div>
+
+
+                <div class="issues-panel">
+
+                    <div class="panel-heading">
+                        Detected Issues
+                    </div>
+
+                    <div id="issuesList">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            DEEP CODE GUARD
+            <span>•</span>
+            PyTorch Deep Learning
+            <span>•</span>
+            TensorFlow Free
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

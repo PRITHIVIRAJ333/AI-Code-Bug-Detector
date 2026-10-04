@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+env/
+
+.vscode/
+
+*.log
+
+.DS_Store
+
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+
+# Python cache
+.pytest_cache/
+
+# Training cache
+*.pt
+*.pth
+
+# Local environment
+.env

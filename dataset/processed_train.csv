@@ -1,0 +1,501 @@
+code,label
+"def add(a, b) return a + b # Example 96",1
+age = int(input()) if age > 18: print('Adult') # Example 37,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 83",0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 8",0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 3",0
+import os print(os.getcwd()) # Example 213,0
+x = 10 y = 0 result = x / y # Example 25,1
+username = 'student' print(username) # Example 29,0
+for i in range(10) print(i) # Example 93,1
+total = 100 count = 5 average = total / count print(average) # Example 7,0
+try: x = int(input()) except: pass # Example 46,1
+age = int(input()) if age > 18: print('Adult') # Example 41,1
+x = 10 y = 2 result = x / y print(result) # Example 51,0
+total = 100 count = 0 average = total / count # Example 75,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 84",0
+data = {'name': 'Raj'} print(data.get('name')) # Example 199,0
+import os os.system(user_command) # Example 141,1
+total = 100 count = 0 average = total / count # Example 130,1
+import os print(os.getcwd()) # Example 156,0
+username = 'student' print(username) # Example 41,0
+password = 'admin123' print(password) # Example 78,1
+username = 'student' print(username) # Example 192,0
+total = 100 count = 5 average = total / count print(average) # Example 133,0
+"def add(a, b) return a + b # Example 50",1
+x = 10 y = 2 result = x / y print(result) # Example 125,0
+"def add(a, b): return a + b # Example 245",0
+"def greet(name): print('Hello', name) # Example 242",1
+name = None print(name.upper()) # Example 111,1
+"def greet(name): print('Hello', name) # Example 118",1
+for i in range(10): print(i) # Example 248,0
+for i in range(10): print(i) # Example 36,0
+try: x = int(input()) except ValueError: x = 0 # Example 221,0
+"def greet(name): print('Hello', name) # Example 117",0
+total = 100 count = 5 average = total / count print(average) # Example 185,0
+user_input = input() print(user_input) # Example 181,0
+user_input = input() print(user_input) # Example 162,0
+"items = [1, 2, 3] while True: print(items) # Example 29",1
+for i in range(10): print(i) # Example 138,0
+name = None print(name.upper()) # Example 31,1
+"items = [1, 2, 3] while True: print(items) # Example 94",1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 194",0
+"def greet(name): print('Hello', name) # Example 162",1
+username = 'student' print(username) # Example 211,0
+for i in range(10): print(i) # Example 15,0
+"items = [1, 2, 3] while True: print(items) # Example 106",1
+age = int(input()) if age > 18: print('Adult') # Example 80,0
+for i in range(10) print(i) # Example 34,1
+import os print(os.getcwd()) # Example 71,0
+"def greet(name): print('Hello', name) # Example 73",0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 62",0
+x = 10 y = 0 result = x / y # Example 191,1
+"items = [1, 2, 3] while True: print(items) # Example 109",1
+"items = [1, 2, 3] while True: print(items) # Example 149",1
+try: x = int(input()) except: pass # Example 188,1
+x = 10 y = 0 result = x / y # Example 240,1
+username = 'student' print(username) # Example 107,0
+username = 'student' print(username) # Example 139,0
+for i in range(10): print(i) # Example 176,0
+x = 10 y = 2 result = x / y print(result) # Example 45,0
+x = 10 y = 0 result = x / y # Example 249,1
+try: x = int(input()) except ValueError: x = 0 # Example 65,0
+x = 10 y = 2 result = x / y print(result) # Example 166,0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 68",1
+import os os.system(user_command) # Example 4,1
+username = 'student' print(username) # Example 50,0
+"def add(a, b) return a + b # Example 124",1
+user_input = input() result = eval(user_input) # Example 206,1
+x = 10 y = 2 result = x / y print(result) # Example 170,0
+data = {'name': 'Raj'} print(data.get('name')) # Example 74,0
+data = {'name': 'Raj'} print(data['age']) # Example 237,1
+import os os.system(user_command) # Example 12,1
+password = 'admin123' print(password) # Example 248,1
+age = int(input()) if age > 18: print('Adult') # Example 132,1
+import os os.system(user_command) # Example 79,1
+user_input = input() result = eval(user_input) # Example 97,1
+"def greet(name): print('Hello', name) # Example 235",1
+for i in range(10): print(i) # Example 6,0
+"items = [1, 2, 3] while True: print(items) # Example 201",1
+for i in range(10): print(i) # Example 152,0
+user_input = input() result = eval(user_input) # Example 167,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 97",0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 40",0
+try: x = int(input()) except: pass # Example 247,1
+try: x = int(input()) except: pass # Example 59,1
+total = 100 count = 5 average = total / count print(average) # Example 140,0
+try: x = int(input()) except ValueError: x = 0 # Example 153,0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 203",1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 194",1
+total = 100 count = 5 average = total / count print(average) # Example 20,0
+try: x = int(input()) except ValueError: x = 0 # Example 237,0
+username = 'student' print(username) # Example 163,0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 52",0
+data = {'name': 'Raj'} print(data.get('name')) # Example 198,0
+user_input = input() print(user_input) # Example 135,0
+import os os.system(user_command) # Example 9,1
+try: x = int(input()) except ValueError: x = 0 # Example 113,0
+password = 'admin123' print(password) # Example 226,1
+if x > 10 print(x) # Example 164,1
+try: x = int(input()) except ValueError: x = 0 # Example 18,0
+"def add(a, b) return a + b # Example 45",1
+"items = [1, 2, 3] while True: print(items) # Example 144",1
+user_input = input() result = eval(user_input) # Example 215,1
+data = {'name': 'Raj'} print(data['age']) # Example 73,1
+"def add(a, b): return a + b # Example 44",0
+total = 100 count = 0 average = total / count # Example 222,1
+total = 100 count = 5 average = total / count print(average) # Example 91,0
+name = 'Student' print(name.upper()) # Example 123,0
+password = 'admin123' print(password) # Example 88,1
+for i in range(10): print(i) # Example 137,0
+name = 'Student' print(name.upper()) # Example 19,0
+user_input = input() result = eval(user_input) # Example 151,1
+"def greet(name): print('Hello', name) # Example 233",1
+if x > 10 print(x) # Example 32,1
+x = 10 y = 0 result = x / y # Example 81,1
+name = 'Student' print(name.upper()) # Example 108,0
+total = 100 count = 0 average = total / count # Example 89,1
+user_input = input() print(user_input) # Example 186,0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 10",1
+if x > 10: print(x) # Example 22,0
+for i in range(10): print(i) # Example 114,0
+try: x = int(input()) except: pass # Example 199,1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 51",1
+age = int(input()) if age > 18: print('Adult') # Example 49,1
+if x > 10: print(x) # Example 81,0
+"def greet(name): print('Hello', name) # Example 24",0
+"def add(a, b): return a + b # Example 214",0
+total = 100 count = 0 average = total / count # Example 245,1
+age = int(input()) if age > 18: print('Adult') # Example 120,0
+user_input = input() result = eval(user_input) # Example 175,1
+import os os.system(user_command) # Example 28,1
+import os print(os.getcwd()) # Example 160,0
+user_input = input() result = eval(user_input) # Example 42,1
+user_input = input() result = eval(user_input) # Example 153,1
+data = {'name': 'Raj'} print(data['age']) # Example 185,1
+total = 100 count = 0 average = total / count # Example 95,1
+for i in range(10): print(i) # Example 76,0
+"def add(a, b): return a + b # Example 172",0
+user_input = input() print(user_input) # Example 144,0
+import os os.system(user_command) # Example 30,1
+"items = [1, 2, 3] for item in items: print(item) # Example 159",0
+age = int(input()) if age > 18: print('Adult') # Example 246,1
+password = 'admin123' print(password) # Example 250,1
+age = int(input()) if age > 18: print('Adult') # Example 232,1
+"items = [1, 2, 3] while True: print(items) # Example 220",1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 52",1
+try: x = int(input()) except ValueError: x = 0 # Example 246,0
+"def add(a, b) return a + b # Example 202",1
+"items = [1, 2, 3] while True: print(items) # Example 11",1
+x = 10 y = 0 result = x / y # Example 18,1
+"items = [1, 2, 3] for item in items: print(item) # Example 190",0
+"def greet(name): print('Hello', name) # Example 72",0
+name = None print(name.upper()) # Example 14,1
+data = {'name': 'Raj'} print(data['age']) # Example 225,1
+total = 100 count = 5 average = total / count print(average) # Example 191,0
+data = {'name': 'Raj'} print(data.get('name')) # Example 188,0
+"items = [1, 2, 3] for item in items: print(item) # Example 94",0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 65",1
+try: x = int(input()) except: pass # Example 204,1
+"items = [1, 2, 3] while True: print(items) # Example 72",1
+password = 'admin123' print(password) # Example 166,1
+name = 'Student' print(name.upper()) # Example 183,0
+total = 100 count = 0 average = total / count # Example 173,1
+for i in range(10): print(i) # Example 161,0
+user_input = input() result = eval(user_input) # Example 230,1
+x = 10 y = 2 result = x / y print(result) # Example 174,0
+username = 'student' print(username) # Example 165,0
+data = {'name': 'Raj'} print(data.get('name')) # Example 201,0
+"def add(a, b): return a + b # Example 87",0
+user_input = input() result = eval(user_input) # Example 47,1
+"items = [1, 2, 3] while True: print(items) # Example 119",1
+data = {'name': 'Raj'} print(data['age']) # Example 35,1
+for i in range(10): print(i) # Example 109,0
+"def greet(name): print('Hello', name) # Example 224",0
+name = 'Student' print(name.upper()) # Example 177,0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 124",0
+for i in range(10): print(i) # Example 229,0
+age = int(input()) if age > 18: print('Adult') # Example 225,0
+age = int(input()) if age > 18: print('Adult') # Example 78,0
+import os print(os.getcwd()) # Example 168,0
+password = 'admin123' print(password) # Example 7,1
+x = 10 y = 2 result = x / y print(result) # Example 146,0
+data = {'name': 'Raj'} print(data['age']) # Example 160,1
+password = 'admin123' print(password) # Example 33,1
+"items = [1, 2, 3] for item in items: print(item) # Example 96",0
+import os os.system(user_command) # Example 43,1
+for i in range(10) print(i) # Example 186,1
+"def greet(name): print('Hello', name) # Example 104",1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 174",1
+x = 10 y = 2 result = x / y print(result) # Example 182,0
+import os print(os.getcwd()) # Example 53,0
+if x > 10: print(x) # Example 32,0
+user_input = input() result = eval(user_input) # Example 8,1
+import os print(os.getcwd()) # Example 5,0
+import os os.system(user_command) # Example 112,1
+"items = [1, 2, 3] for item in items: print(item) # Example 54",0
+"def add(a, b): return a + b # Example 208",0
+data = {'name': 'Raj'} print(data.get('name')) # Example 2,0
+"def add(a, b) return a + b # Example 57",1
+name = 'Student' print(name.upper()) # Example 69,0
+"def greet(name): print('Hello', name) # Example 226",0
+name = None print(name.upper()) # Example 189,1
+"items = [1, 2, 3] while True: print(items) # Example 192",1
+"def greet(name): print('Hello', name) # Example 138",1
+user_input = input() print(user_input) # Example 13,0
+import os print(os.getcwd()) # Example 27,0
+import os os.system(user_command) # Example 193,1
+if x > 10: print(x) # Example 217,0
+for i in range(10): print(i) # Example 119,0
+"items = [1, 2, 3] for item in items: print(item) # Example 204",0
+"items = [1, 2, 3] while True: print(items) # Example 123",1
+if x > 10: print(x) # Example 99,0
+"def greet(name): print('Hello', name) # Example 148",1
+"def greet(name): print('Hello', name) # Example 142",0
+password = 'admin123' print(password) # Example 6,1
+"items = [1, 2, 3] while True: print(items) # Example 179",1
+for i in range(10) print(i) # Example 150,1
+"def add(a, b): return a + b # Example 101",0
+"def add(a, b): return a + b # Example 35",0
+name = 'Student' print(name.upper()) # Example 63,0
+age = int(input()) if age > 18: print('Adult') # Example 214,1
+data = {'name': 'Raj'} print(data.get('name')) # Example 167,0
+data = {'name': 'Raj'} print(data['age']) # Example 16,1
+"def add(a, b) return a + b # Example 228",1
+import os os.system(user_command) # Example 120,1
+x = 10 y = 2 result = x / y print(result) # Example 59,0
+try: x = int(input()) except: pass # Example 85,1
+"items = [1, 2, 3] for item in items: print(item) # Example 220",0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 107",1
+if x > 10 print(x) # Example 17,1
+import os print(os.getcwd()) # Example 28,0
+data = {'name': 'Raj'} print(data['age']) # Example 181,1
+age = int(input()) if age > 18: print('Adult') # Example 40,1
+age = int(input()) if age > 18: print('Adult') # Example 178,1
+"def greet(name): print('Hello', name) # Example 209",0
+"items = [1, 2, 3] for item in items: print(item) # Example 219",0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 189",0
+if x > 10: print(x) # Example 89,0
+x = 10 y = 2 result = x / y print(result) # Example 173,0
+data = {'name': 'Raj'} print(data['age']) # Example 139,1
+x = 10 y = 2 result = x / y print(result) # Example 55,0
+total = 100 count = 5 average = total / count print(average) # Example 122,0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 86",1
+try: x = int(input()) except: pass # Example 70,1
+x = 10 y = 0 result = x / y # Example 61,1
+"def greet(name): print('Hello', name) # Example 74",1
+if x > 10 print(x) # Example 183,1
+name = 'Student' print(name.upper()) # Example 250,0
+"def greet(name): print('Hello', name) # Example 149",0
+total = 100 count = 0 average = total / count # Example 71,1
+import os os.system(user_command) # Example 62,1
+if x > 10: print(x) # Example 86,0
+for i in range(10): print(i) # Example 67,0
+username = 'student' print(username) # Example 115,0
+age = int(input()) if age > 18: print('Adult') # Example 200,1
+username = 'student' print(username) # Example 235,0
+name = 'Student' print(name.upper()) # Example 236,0
+age = int(input()) if age > 18: print('Adult') # Example 127,1
+"def add(a, b) return a + b # Example 133",1
+name = None print(name.upper()) # Example 231,1
+for i in range(10): print(i) # Example 39,0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 202",0
+age = int(input()) if age > 18: print('Adult') # Example 229,1
+if x > 10: print(x) # Example 193,0
+username = 'student' print(username) # Example 215,0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 57",0
+data = {'name': 'Raj'} print(data['age']) # Example 163,1
+username = 'student' print(username) # Example 23,0
+name = 'Student' print(name.upper()) # Example 234,0
+user_input = input() print(user_input) # Example 247,0
+for i in range(10) print(i) # Example 63,1
+if x > 10: print(x) # Example 147,0
+name = None print(name.upper()) # Example 26,1
+"def add(a, b) return a + b # Example 238",1
+name = 'Student' print(name.upper()) # Example 16,0
+age = int(input()) if age > 18: print('Adult') # Example 157,0
+password = 'admin123' print(password) # Example 113,1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 218",1
+data = {'name': 'Raj'} print(data.get('name')) # Example 230,0
+x = 10 y = 0 result = x / y # Example 3,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 43",0
+total = 100 count = 0 average = total / count # Example 125,1
+total = 100 count = 5 average = total / count print(average) # Example 121,0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 4",0
+name = None print(name.upper()) # Example 197,1
+password = 'admin123' print(password) # Example 100,1
+name = None print(name.upper()) # Example 213,1
+name = None print(name.upper()) # Example 234,1
+total = 100 count = 0 average = total / count # Example 38,1
+"def greet(name): print('Hello', name) # Example 244",1
+age = int(input()) if age > 18: print('Adult') # Example 126,1
+data = {'name': 'Raj'} print(data['age']) # Example 24,1
+age = int(input()) if age > 18: print('Adult') # Example 132,0
+name = 'Student' print(name.upper()) # Example 180,0
+try: x = int(input()) except: pass # Example 102,1
+if x > 10 print(x) # Example 116,1
+username = 'student' print(username) # Example 82,0
+name = None print(name.upper()) # Example 121,1
+try: x = int(input()) except ValueError: x = 0 # Example 210,0
+x = 10 y = 0 result = x / y # Example 172,1
+"items = [1, 2, 3] for item in items: print(item) # Example 14",0
+if x > 10 print(x) # Example 146,1
+if x > 10 print(x) # Example 44,1
+total = 100 count = 0 average = total / count # Example 87,1
+"def add(a, b) return a + b # Example 243",1
+total = 100 count = 5 average = total / count print(average) # Example 103,0
+user_input = input() result = eval(user_input) # Example 110,1
+"def greet(name): print('Hello', name) # Example 58",0
+data = {'name': 'Raj'} print(data.get('name')) # Example 196,0
+for i in range(10) print(i) # Example 239,1
+"def add(a, b) return a + b # Example 165",1
+name = 'Student' print(name.upper()) # Example 47,0
+user_input = input() print(user_input) # Example 238,0
+import os print(os.getcwd()) # Example 171,0
+"def greet(name): print('Hello', name) # Example 147",1
+name = None print(name.upper()) # Example 156,1
+"items = [1, 2, 3] for item in items: print(item) # Example 95",0
+try: x = int(input()) except ValueError: x = 0 # Example 31,0
+x = 10 y = 0 result = x / y # Example 208,1
+total = 100 count = 5 average = total / count print(average) # Example 249,0
+username = 'student' print(username) # Example 42,0
+"items = [1, 2, 3] for item in items: print(item) # Example 66",0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 90",1
+"items = [1, 2, 3] while True: print(items) # Example 195",1
+name = None print(name.upper()) # Example 216,1
+username = 'student' print(username) # Example 197,0
+"items = [1, 2, 3] for item in items: print(item) # Example 212",0
+"def greet(name): print('Hello', name) # Example 239",0
+try: x = int(input()) except: pass # Example 152,1
+for i in range(10) print(i) # Example 207,1
+name = None print(name.upper()) # Example 168,1
+"def greet(name): print('Hello', name) # Example 210",1
+import os os.system(user_command) # Example 159,1
+name = 'Student' print(name.upper()) # Example 10,0
+"def add(a, b): return a + b # Example 240",0
+name = None print(name.upper()) # Example 64,1
+username = 'student' print(username) # Example 106,0
+user_input = input() print(user_input) # Example 70,0
+for i in range(10): print(i) # Example 222,0
+"items = [1, 2, 3] for item in items: print(item) # Example 126",0
+total = 100 count = 5 average = total / count print(average) # Example 179,0
+name = 'Student' print(name.upper()) # Example 207,0
+"items = [1, 2, 3] while True: print(items) # Example 101",1
+age = int(input()) if age > 18: print('Adult') # Example 26,0
+user_input = input() print(user_input) # Example 17,0
+"items = [1, 2, 3] while True: print(items) # Example 1",1
+username = 'student' print(username) # Example 105,0
+data = {'name': 'Raj'} print(data.get('name')) # Example 205,0
+x = 10 y = 0 result = x / y # Example 131,1
+"def add(a, b) return a + b # Example 98",1
+data = {'name': 'Raj'} print(data.get('name')) # Example 46,0
+age = int(input()) if age > 18: print('Adult') # Example 198,1
+total = 100 count = 5 average = total / count print(average) # Example 116,0
+user_input = input() print(user_input) # Example 12,0
+"def add(a, b): return a + b # Example 61",0
+name = None print(name.upper()) # Example 224,1
+if x > 10 print(x) # Example 161,1
+user_input = input() result = eval(user_input) # Example 177,1
+"items = [1, 2, 3] while True: print(items) # Example 223",1
+username = 'student' print(username) # Example 56,0
+x = 10 y = 2 result = x / y print(result) # Example 143,0
+if x > 10: print(x) # Example 141,0
+try: x = int(input()) except ValueError: x = 0 # Example 216,0
+username = 'student' print(username) # Example 48,0
+if x > 10: print(x) # Example 154,0
+if x > 10 print(x) # Example 134,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 232",0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 15",1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 170",1
+name = 'Student' print(name.upper()) # Example 25,0
+x = 10 y = 2 result = x / y print(result) # Example 98,0
+x = 10 y = 2 result = x / y print(result) # Example 129,0
+age = int(input()) if age > 18: print('Adult') # Example 11,0
+for i in range(10): print(i) # Example 79,0
+if x > 10: print(x) # Example 136,0
+try: x = int(input()) except ValueError: x = 0 # Example 148,0
+try: x = int(input()) except: pass # Example 36,1
+password = 'admin123' print(password) # Example 143,1
+for i in range(10) print(i) # Example 169,1
+if x > 10 print(x) # Example 205,1
+"def add(a, b) return a + b # Example 99",1
+if x > 10: print(x) # Example 88,0
+import os print(os.getcwd()) # Example 155,0
+for i in range(10) print(i) # Example 115,1
+try: x = int(input()) except: pass # Example 117,1
+name = None print(name.upper()) # Example 157,1
+if x > 10 print(x) # Example 180,1
+x = 10 y = 0 result = x / y # Example 236,1
+import os os.system(user_command) # Example 103,1
+user_input = input() result = eval(user_input) # Example 114,1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 241",1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 20",1
+"def greet(name): print('Hello', name) # Example 196",1
+total = 100 count = 0 average = total / count # Example 56,1
+user_input = input() print(user_input) # Example 110,0
+"items = [1, 2, 3] while True: print(items) # Example 82",1
+password = 'admin123' print(password) # Example 137,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 242",0
+name = 'Student' print(name.upper()) # Example 127,0
+x = 10 y = 2 result = x / y print(result) # Example 93,0
+import os os.system(user_command) # Example 211,1
+age = int(input()) if age > 18: print('Adult') # Example 151,0
+if x > 10: print(x) # Example 203,0
+total = 100 count = 5 average = total / count print(average) # Example 128,0
+try: x = int(input()) except: pass # Example 92,1
+"def greet(name): print('Hello', name) # Example 13",1
+try: x = int(input()) except: pass # Example 212,1
+if x > 10 print(x) # Example 91,1
+age = int(input()) if age > 18: print('Adult') # Example 84,1
+password = 'admin123' print(password) # Example 122,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 227",0
+username = 'student' print(username) # Example 134,0
+username = 'student' print(username) # Example 68,0
+import os os.system(user_command) # Example 209,1
+"def greet(name): print('Hello', name) # Example 37",0
+age = int(input()) if age > 18: print('Adult') # Example 150,0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 182",1
+if x > 10 print(x) # Example 53,1
+"def greet(name): print('Hello', name) # Example 243",0
+x = 10 y = 0 result = x / y # Example 128,1
+import os print(os.getcwd()) # Example 100,0
+"def add(a, b): return a + b # Example 223",0
+if x > 10 print(x) # Example 184,1
+password = 'admin123' print(password) # Example 21,1
+name = 'Student' print(name.upper()) # Example 158,0
+name = None print(name.upper()) # Example 187,1
+try: x = int(input()) except: pass # Example 158,1
+password = 'admin123' print(password) # Example 22,1
+"def greet(name): print('Hello', name) # Example 66",1
+try: x = int(input()) except: pass # Example 221,1
+"def add(a, b) return a + b # Example 76",1
+"def greet(name): print('Hello', name) # Example 195",0
+data = {'name': 'Raj'} print(data.get('name')) # Example 49,0
+total = 100 count = 0 average = total / count # Example 190,1
+"def greet(name): print('Hello', name) # Example 178",0
+x = 10 y = 0 result = x / y # Example 19,1
+import os print(os.getcwd()) # Example 30,0
+data = {'name': 'Raj'} print(data['age']) # Example 77,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 104",0
+x = 10 y = 0 result = x / y # Example 39,1
+data = {'name': 'Raj'} print(data['age']) # Example 58,1
+username = 'student' print(username) # Example 244,0
+name = 'Student' print(name.upper()) # Example 38,0
+total = 100 count = 0 average = total / count # Example 219,1
+user_input = input() print(user_input) # Example 112,0
+"items = [1, 2, 3] for item in items: print(item) # Example 33",0
+user_input = input() result = eval(user_input) # Example 227,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 130",0
+password = 'admin123' print(password) # Example 83,1
+try: x = int(input()) except: pass # Example 135,1
+username = 'student' print(username) # Example 77,0
+if x > 10 print(x) # Example 67,1
+if x > 10: print(x) # Example 145,0
+age = int(input()) if age > 18: print('Adult') # Example 171,1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 2",1
+name = None print(name.upper()) # Example 23,1
+"def add(a, b) return a + b # Example 142",1
+data = {'name': 'Raj'} print(data.get('name')) # Example 175,0
+"def greet(name): print('Hello', name) # Example 217",1
+user_input = input() print(user_input) # Example 218,0
+password = 'admin123' print(password) # Example 48,1
+password = 'admin123' print(password) # Example 27,1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 184",0
+password = 'admin123' print(password) # Example 129,1
+"def greet(name): print('Hello', name) # Example 1",0
+age = int(input()) if age > 18: print('Adult') # Example 9,0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 233",0
+"numbers = [1, 2, 3] print(numbers[1]) # Example 187",0
+data = {'name': 'Raj'} print(data.get('name')) # Example 75,0
+age = int(input()) if age > 18: print('Adult') # Example 102,0
+"items = [1, 2, 3] while True: print(items) # Example 105",1
+"items = [1, 2, 3] while True: print(items) # Example 176",1
+"numbers = [1, 2, 3] print(numbers[1]) # Example 118",0
+data = {'name': 'Raj'} print(data['age']) # Example 108,1
+total = 100 count = 5 average = total / count print(average) # Example 60,0
+for i in range(10) print(i) # Example 145,1
+"def greet(name): print('Hello', name) # Example 140",1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 80",1
+"def greet(name): print('Hello', name) # Example 241",0
+"def greet(name): print('Hello', name) # Example 131",0
+"def add(a, b) return a + b # Example 55",1
+data = {'name': 'Raj'} print(data.get('name')) # Example 206,0
+age = int(input()) if age > 18: print('Adult') # Example 60,1
+"numbers = [1, 2, 3] print(numbers[10]) # Example 136",1
+name = None print(name.upper()) # Example 69,1
+x = 10 y = 2 result = x / y print(result) # Example 200,0
+data = {'name': 'Raj'} print(data.get('name')) # Example 231,0
+"numbers = [1, 2, 3] print(numbers[10]) # Example 54",1
+for i in range(10): print(i) # Example 90,0
+x = 10 y = 2 result = x / y print(result) # Example 228,0
+password = 'admin123' print(password) # Example 154,1
+"items = [1, 2, 3] for item in items: print(item) # Example 34",0
+name = 'Student' print(name.upper()) # Example 169,0
+import os print(os.getcwd()) # Example 92,0
+try: x = int(input()) except: pass # Example 5,1
+data = {'name': 'Raj'} print(data.get('name')) # Example 21,0
+"items = [1, 2, 3] for item in items: print(item) # Example 85",0
+try: x = int(input()) except ValueError: x = 0 # Example 164,0
+username = 'student' print(username) # Example 64,0
+import os os.system(user_command) # Example 155,1
+if x > 10: print(x) # Example 111,0
