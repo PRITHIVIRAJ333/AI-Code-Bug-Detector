@@ -1,125 +1,231 @@
+import os
 import json
-from pathlib import Path
-
-import joblib
 import numpy as np
+import joblib
 import onnxruntime as ort
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MODEL_DIR = (
-    BASE_DIR /
-    "backend" /
+MODEL_DIR = os.path.join(
+    BASE_DIR,
     "model"
 )
 
-
-MODEL_PATH = (
-    MODEL_DIR /
+MODEL_PATH = os.path.join(
+    MODEL_DIR,
     "model.onnx"
 )
 
-VECTORIZER_PATH = (
-    MODEL_DIR /
+VECTORIZER_PATH = os.path.join(
+    MODEL_DIR,
     "vectorizer.joblib"
 )
 
-LABELS_PATH = (
-    MODEL_DIR /
+LABELS_PATH = os.path.join(
+    MODEL_DIR,
     "labels.json"
 )
 
 
-_session = None
-_vectorizer = None
-_labels = None
+session = None
+vectorizer = None
+labels = {}
 
 
 def load_model():
 
-    global _session
-    global _vectorizer
-    global _labels
+    global session
+    global vectorizer
+    global labels
 
-    if _session is not None:
-        return
-
-    if not MODEL_PATH.exists():
+    if not os.path.exists(MODEL_PATH):
         raise FileNotFoundError(
-            "AI model not found. "
-            "Run training first."
+            "model.onnx not found."
         )
 
-    _session = ort.InferenceSession(
-        str(MODEL_PATH),
-        providers=[
-            "CPUExecutionProvider"
-        ]
+    if not os.path.exists(VECTORIZER_PATH):
+        raise FileNotFoundError(
+            "vectorizer.joblib not found."
+        )
+
+    session = ort.InferenceSession(
+        MODEL_PATH,
+        providers=["CPUExecutionProvider"]
     )
 
-    _vectorizer = joblib.load(
+    vectorizer = joblib.load(
         VECTORIZER_PATH
     )
 
-    with open(
-        LABELS_PATH,
-        "r",
-        encoding="utf-8"
-    ) as file:
+    if os.path.exists(LABELS_PATH):
 
-        _labels = json.load(file)
+        with open(
+            LABELS_PATH,
+            "r",
+            encoding="utf-8"
+        ) as file:
+
+            labels = json.load(file)
+
+    else:
+
+        labels = {
+            "0": "No Bug",
+            "1": "Bug Detected"
+        }
 
 
-def predict_code(code):
+def predict_single(code):
 
-    load_model()
+    if session is None:
+        load_model()
 
-    features = _vectorizer.transform(
+    features = vectorizer.transform(
         [code]
-    ).toarray().astype(
+    )
+
+    input_data = features.toarray().astype(
         np.float32
     )
 
-    input_name = (
-        _session
-        .get_inputs()[0]
-        .name
-    )
+    input_name = session.get_inputs()[0].name
 
-    output = _session.run(
+    outputs = session.run(
         None,
         {
-            input_name: features
+            input_name: input_data
         }
-    )[0][0]
-
-    # Softmax
-    exp_values = np.exp(
-        output - np.max(output)
     )
 
-    probabilities = (
-        exp_values /
-        np.sum(exp_values)
-    )
+    probabilities = outputs[0][0]
 
-    predicted_index = int(
+    predicted_class = int(
         np.argmax(probabilities)
     )
 
-    predicted_label = _labels.get(
-        str(predicted_index),
-        str(predicted_index)
+    confidence = float(
+        probabilities[predicted_class] * 100
     )
 
-    confidence = float(
-        probabilities[predicted_index]
-        * 100
+    label = labels.get(
+        str(predicted_class),
+        "Bug Detected"
+        if predicted_class == 1
+        else "No Bug"
     )
 
     return {
-        "label": predicted_label,
+        "label": label,
+        "confidence": round(
+            confidence,
+            2
+        )
+    }
+
+
+def split_code(code, max_chars=4000):
+
+    lines = code.splitlines()
+
+    chunks = []
+
+    current = []
+    current_size = 0
+
+    for line in lines:
+
+        line_size = len(line) + 1
+
+        if (
+            current
+            and current_size + line_size > max_chars
+        ):
+
+            chunks.append(
+                "\n".join(current)
+            )
+
+            current = []
+            current_size = 0
+
+        current.append(line)
+        current_size += line_size
+
+    if current:
+
+        chunks.append(
+            "\n".join(current)
+        )
+
+    return chunks
+
+
+def predict_large_code(code):
+
+    chunks = split_code(code)
+
+    if not chunks:
+
+        return {
+            "label": "No Bug",
+            "confidence": 0
+        }
+
+    predictions = []
+
+    for chunk in chunks:
+
+        try:
+
+            result = predict_single(
+                chunk
+            )
+
+            predictions.append(result)
+
+        except Exception:
+            continue
+
+    if not predictions:
+
+        return {
+            "label": "No Bug",
+            "confidence": 0
+        }
+
+    bug_results = [
+        x for x in predictions
+        if x["label"].lower()
+        in [
+            "bug detected",
+            "bug",
+            "1"
+        ]
+    ]
+
+    if bug_results:
+
+        confidence = max(
+            x["confidence"]
+            for x in bug_results
+        )
+
+        return {
+            "label": "Bug Detected",
+            "confidence": round(
+                confidence,
+                2
+            )
+        }
+
+    confidence = max(
+        x["confidence"]
+        for x in predictions
+    )
+
+    return {
+        "label": "No Bug",
         "confidence": round(
             confidence,
             2
